@@ -72,7 +72,7 @@ class _HomePagesState extends State<HomePages> {
                   height: 100,
                   width: 100,
                   color: Color(0xff424242),
-                  child: Image.asset("lib/images/estacion.png"),
+                  child: Image.asset("lib/images/gorra.png"),
                 ),
                 SizedBox(
                   width: 25,
@@ -149,15 +149,15 @@ class _HomePagesState extends State<HomePages> {
               children: [
                 CategoryCard(
                   categoryName: "Los Angeles Dodgers",
-                  iconImagePath: "lib/icons/clipper.png",
+                  iconImagePath: "lib/icons/cap1.png",
                 ),
                 CategoryCard(
                   categoryName: "MLB 59FIFTY ",
-                  iconImagePath: "lib/icons/navaja.png",
+                  iconImagePath: "lib/icons/cap2.png",
                 ),
                 CategoryCard(
                   categoryName: "Tigres de Quintana Roo",
-                  iconImagePath: "lib/icons/trimmer.png",
+                  iconImagePath: "lib/icons/cap3.png",
                 ),
               ],
             ),
@@ -194,19 +194,19 @@ class _HomePagesState extends State<HomePages> {
           Expanded(
             child: ListView(scrollDirection: Axis.horizontal, children: [
               DoctorCard(
-                doctorImagePath: "lib/images/barber1.png",
+                doctorImagePath: "lib/images/prove1.png",
                 raiting: "4,5",
                 doctorName: "New Era",
                 doctorProfession: "Proveedor",
               ),
               DoctorCard(
-                doctorImagePath: "lib/images/barber2.png",
+                doctorImagePath: "lib/images/prove2.png",
                 raiting: "4,2",
                 doctorName: "      Lids     ",
                 doctorProfession: "Proveedor",
               ),
               DoctorCard(
-                doctorImagePath: "lib/images/barbero3.png",
+                doctorImagePath: "lib/images/prove3.png",
                 raiting: "5",
                 doctorName: "Famcaps",
                 doctorProfession: "Proveedor",
